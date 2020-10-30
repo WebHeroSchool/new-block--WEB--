@@ -13,7 +13,30 @@ body {
   display: inline-block;
 }
 .logo {
+  position: relative;
   padding: 40px 0;
+  font: bold 24px/31px “PT Serif, Arial, Helvetica, Sans-serif;
+  padding-left: 44px;
+}
+.logo__circle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  border-radius: 50%;
+  opacity:.7;
+}
+.logo__circle_color_blue {
+  top: 56%;
+  left: 8px;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity:.7;
 }
 .menu {
   display: flex;
