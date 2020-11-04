@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 127px;
-  padding-top: 3px;
 }
 .logo, .menu {
   display: inline-block;
@@ -17,9 +16,8 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  font: bold 24px/31px pt_serif, Arial, Helvetica, Sans-serif;
+  font: bold 24px/31px pt_serifbold, Arial, Helvetica, Sans-serif;
   padding-left: 44px;
-  letter-spacing: 1px;
 }
 .logo__circle {
   position: absolute;
@@ -98,10 +96,9 @@ body {
   background-position: 758px 3px
 }
 .main__title {
-  font: bold 66px/87px pt_serif, Arial, Helvetica, Sans-serif;
+  font: bold 66px/87px pt_serifbold, Arial, Helvetica, Sans-serif;
   margin: 0 0 36px 0;
   padding: 76px 0 0 0;
-  letter-spacing: 2px;
 }
 .main__title_highlight {
   background: #ECF3FF;
@@ -109,7 +106,8 @@ body {
 .main__text {
   margin: 0 0 59px 0;
   font: normal 22px/26px Roboto, Arial, Helvetica, Sans-serif;
-  width: 80%
+  width: 455px;
+  height: 52px;
 }
 .main__button {
   font: normal 18px/21px Roboto, Arial, Helvetica, Sans-serif;
